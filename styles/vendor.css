@@ -1,0 +1,1227 @@
+﻿/*font stlye*/
+@font-face {
+    font-family: 'SFUIDisplay-Black';
+    src: url('../fonts/SFUIDisplay-Black.ttf');
+}
+
+@font-face {
+    font-family: 'SFUIDisplay-Bold';
+    src: url('../fonts/SFUIDisplay-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'SFUIDisplay-Heavy';
+    src: url('../fonts/SFUIDisplay-Heavy.ttf');
+}
+
+@font-face {
+    font-family: 'SFUIDisplay-Light';
+    src: url('../fonts/SFUIDisplay-Light.ttf');
+}
+
+@font-face {
+    font-family: 'SFUIDisplay-Medium';
+    src: url('../fonts/SFUIDisplay-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'SFUIDisplay-Regular';
+    src: url('../fonts/SFUIDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'SFUIDisplay-Semibold';
+    src: url('../fonts/SFUIDisplay-Semibold.ttf');
+}
+
+@font-face {
+    font-family: 'SFUIDisplay-Thin';
+    src: url('../fonts/SFUIDisplay-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'SFUIDisplay-Ultralight';
+    src: url('../fonts/SFUIDisplay-Ultralight.ttf');
+}
+
+.font-black {
+    font-family: 'SFUIDisplay-Black';
+}
+
+.font-Heavy {
+    font-family: 'SFUIDisplay-Heavy';
+}
+
+.font-thin {
+    font-family: 'SFUIDisplay-Thin';
+}
+
+.font-bold {
+    font-family: 'SFUIDisplay-Bold';
+}
+
+.font-light {
+    font-family: 'SFUIDisplay-Light';
+}
+
+.semi-bold {
+    font-family: 'SFUIDisplay-Semibold';
+}
+
+.font-meidum {
+    font-family: 'SFUIDisplay-Medium';
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'SFUIDisplay-Regular';
+}
+
+/*style for header + menu*/
+header .cms_header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+    header .cms_header .logo {
+        border-right: 1px solid #e5e5e5;
+    }
+
+.menu-left {
+    background-color: #323549;
+    min-height: 120vh;
+}
+
+.dashboard-logo {
+    background-color: #3c3f53;
+}
+
+    .dashboard-logo img {
+        margin-bottom: -6px;
+    }
+
+.dashboard-text {
+    color: #313448;
+    margin-top: -5px;
+}
+
+.round-input {
+    border: 1px solid #b9b9c3;
+    border-radius: 40px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.search-menu input.form-control {
+    padding-right: 27px;
+}
+
+    .search-menu input.form-control:focus {
+        border-color: #b9b9c3;
+        outline: none;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(185, 185, 195, 0.6);
+    }
+
+.search-menu:after {
+    content: "\f002";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 25px;
+    right: 27px;
+    font-size: 15px;
+}
+
+.sub-menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+    .sub-menu ul li {
+        list-style: none;
+        height: 50px;
+        padding-left: 15px;
+        transition: all ease 0.2s;
+    }
+
+        .sub-menu ul li a {
+            color: #d8d8d8;
+            padding: 14px 0px;
+            display: block;
+        }
+
+        .sub-menu ul li:hover, .sub-menu ul li.active {
+            background-color: #ff3d45;
+        }
+
+            .sub-menu ul li:hover a, .sub-menu ul li.active a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            .sub-menu ul li:hover .ico, .sub-menu ul li.active .ico {
+                background-image: url('../images/sub_ico_hover.png');
+            }
+
+
+
+
+.sub-menu .ico {
+    padding: 10px 19px;
+    background-image: url('../images/sub_ico.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all ease 0.2s;
+}
+
+    .sub-menu .ico.menu-1 {
+        background-position-y: -1%;
+    }
+
+    .sub-menu .ico.menu-2 {
+        background-position-y: 13%;
+    }
+
+    .sub-menu .ico.menu-3 {
+        background-position-y: 30%;
+    }
+
+    .sub-menu .ico.menu-4 {
+        background-position-y: 48%;
+    }
+
+    .sub-menu .ico.menu-5 {
+        background-position-y: 62%;
+    }
+
+    .sub-menu .ico.menu-6 {
+        background-position-y: 80%;
+    }
+
+    .sub-menu .ico.menu-7 {
+        background-position-y: 98.5%;
+    }
+
+.sub-menu .notification {
+    margin-right: 15px;
+    background-color: #3c3f53;
+    color: #5d6171;
+    padding: 2px 0px;
+    border-radius: 40px;
+    display: block;
+    width: 45px;
+    text-align: center;
+}
+
+    .sub-menu .notification.active {
+        background-color: #ff3d45;
+        color: #fff;
+    }
+
+.copyright {
+    color: #454b65;
+    position: absolute;
+    bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*style page listTenders*/
+.page-title {
+    background-color: #ededf0;
+    min-height: 50px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.bread-cumb {
+    color: #84868e;
+}
+
+.home_ico {
+    margin-top: -5px;
+}
+
+.content-group {
+    background-color: #f9f9f9;
+}
+
+.ihis-tab-panel {
+    border-bottom: 1px solid #ebebeb;
+}
+
+ul.inline li {
+    list-style: none;
+    float: left;
+}
+
+.ihis-tab-panel ul {
+    padding-left: 15px;
+}
+
+    .ihis-tab-panel ul li {
+        padding: 5px 0px;
+        position: relative;
+        border: 1px solid #ebebeb;
+        border-bottom: 0px;
+        margin-right: 2px;
+        background-color: #ededf0;
+    }
+
+        .ihis-tab-panel ul li.active, .ihis-tab-panel ul li:hover {
+            background-color: #f9f9f9;
+        }
+
+            .ihis-tab-panel ul li.active a, .ihis-tab-panel ul li:hover a {
+                color: #323549;
+                text-decoration: none;
+            }
+
+            .ihis-tab-panel ul li.active:before, .ihis-tab-panel ul li:hover:before {
+                content: "";
+                height: 1px;
+                width: 100%;
+                background-color: #f9f9f9;
+                position: absolute;
+                bottom: -1px;
+            }
+
+        .ihis-tab-panel ul li a {
+            padding: 5px 20px;
+            color: #a1a1a1;
+        }
+
+.noti-text {
+    color: #84868e;
+}
+
+/*.listTenders .group-panel {
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+}*/
+table.group-panel tr {
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+}
+
+    table.group-panel tr td.number {
+        min-width: 50px;
+        padding: 0 8px;
+    }
+
+.number:before {
+    /*bottom: 100%;*/
+    margin-top: -21px;
+    border: 1px solid #88b7d5;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: #8fb25c;
+    border-width: 10px;
+    margin-left: 2px;
+}
+
+.number:after {
+    content: "";
+    width: 42px;
+    height: 8px;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 12px;
+    transform: rotate(-10deg);
+}
+
+.number .number-text {
+    margin-left: 12px;
+    width: 40px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #a0cc5f;
+    color: #fff;
+    display: block;
+    position: absolute;
+    text-align: center;
+    margin-top: -11px;
+}
+
+.status {
+    padding: 2px 9px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+    .status.closed {
+        background-color: #3949ab;
+    }
+
+    .status.pendding {
+        background-color: #f9a542;
+    }
+
+    .status.award {
+        background-color: #00bfa5;
+    }
+
+    .status.cancel {
+        background-color: #455a64;
+    }
+
+.code {
+    color: #84868e;
+}
+
+.tender-ico {
+    padding: 10px 19px;
+    background-image: url('../images/tender_ico.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all ease 0.2s;
+}
+
+    .tender-ico.clock {
+        background-position-y: 85%;
+    }
+
+a:hover .tender-ico {
+    background-image: url('../images/tender_ico_hover.png');
+}
+
+.text-midle {
+    vertical-align: middle !important;
+}
+
+.black-light {
+    color: #84868e;
+}
+
+.black-dark {
+    color: #5d6171;
+}
+/*style for tender detail*/
+.tender-detail {
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+}
+
+.ml-70 {
+    margin-left: 70px;
+}
+
+.purple-text {
+    color: #3c3f53;
+}
+
+.purple-text-light {
+    color: #767ca0;
+}
+
+.pl-50 {
+    padding-left: 50px !important;
+}
+
+.black-dark-2 {
+    color: #323549;
+}
+
+.color-black {
+    color: #2b2e3e;
+}
+
+.table-horizontal {
+    width: 100%;
+}
+
+    .table-horizontal thead tr th {
+        border-bottom: 1px solid #ebebeb;
+        font-weight: normal;
+        padding: 5px 7px;
+    }
+
+    .table-horizontal tbody tr td {
+        border-bottom: 1px solid #ebebeb;
+        padding: 5px 7px;
+    }
+
+    .table-horizontal tbody tr:last-child td {
+        border-bottom: none;
+    }
+
+.contact_ico {
+    padding: 10px 19px;
+    background-image: url('../images/contact_ico.PNG');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all ease 0.2s;
+}
+
+    .contact_ico.ico-1 {
+        background-position-y: -5%;
+    }
+
+    .contact_ico.ico-2 {
+        background-position-y: 95%;
+    }
+
+    .contact_ico.ico-3 {
+        background-position-y: 53%;
+    }
+
+.color-red {
+    color: #d9381c;
+}
+
+.color-re-2 {
+    color: #ff3d45;
+}
+
+.btn_red {
+    background-color: #ff3d45;
+    border: 1px solid #ff3d45;
+    box-shadow: none;
+    color: #fff;
+    transition: all ease 0.2s;
+}
+
+    .btn_red:hover {
+        background-color: rgba(255, 61, 69, 0.74);
+        border: 1px solid rgba(255, 61, 69, 0.74);
+    }
+
+.pr-50 {
+    padding-right: 50px !important;
+}
+
+.radius-5 {
+    border-radius: 5px;
+}
+
+.pl-70 {
+    padding-left: 70px !important;
+}
+
+a.color-re-2:hover {
+    color: #ff3d45;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all ease 0.2s;
+}
+
+.no-box-shadow {
+    box-shadow: none;
+}
+
+.countDown {
+    background-color: #f2f2f2;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+
+.blue-color {
+    color: #01579b;
+}
+/*style page bid_for_items*/
+.line-eb-bottom {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.color-c2 {
+    color: #c2c2c2 !important;
+}
+
+.color-c {
+    color: #ccc !important;
+}
+
+.color-d7 {
+    color: #d7d7d7 !important;
+}
+
+.color-f {
+    color: #fff !important;
+}
+
+.color-95 {
+    color: #959595 !important;
+}
+
+.circle-menu {
+    display: inline-block;
+    padding: 6px;
+    text-align: center;
+    vertical-align: baseline;
+    background-color: #ebebeb;
+    border-radius: 50%;
+    height: 37px;
+    width: 37px;
+    line-height: 25px;
+}
+
+.bid_for_items .select_items_title, .bid_for_items .base_bid, .bid_for_items .delivery_information {
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+}
+
+.circle-menu.active {
+    background-color: #00a651;
+    color: #fff;
+}
+
+.supply_profile .no-active, .bid_for_items .no-active {
+    color: #d7d7d7;
+}
+
+.bid_for_items .select_items_content {
+    color: #767ca0;
+}
+
+.bid_for_items .base_bid_label {
+    margin-top: 6px;
+}
+
+.bid_for_items .delivery_info_items_content .dropdown-toggle {
+    color: #959595 !important;
+}
+
+.bid_for_items .btn-aab, .verify_submit .btn-submit-response {
+    background-color: #42a5f5;
+}
+
+.bid_for_items #remark {
+    resize: none;
+}
+/*style page proposal_supplier_profile*/
+.border-e5 {
+    border: solid 1px #E5E5E5 !important;
+}
+
+.supply_profile .supply_profile_title, .bid_for_items .supply_profile_info, .bid_for_items .upload_document_info {
+    background-color: #fff;
+    min-height: 55px;
+}
+
+.supply_profile .small_circle i, .bid_for_items .small_circle i {
+    font-style: italic;
+}
+
+.supply_profile .small_circle, .bid_for_items .small_circle {
+    font-family: SFUHelveticaLightOblique;
+    display: inline-block;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    vertical-align: baseline;
+    background-color: #ef9f18;
+    border-radius: 50px;
+    height: 18px;
+    width: 18px;
+    font-size: 13px;
+}
+
+.supply_profile .btn-exit, .supply_profile .btn-next, .supply_profile .btn-previous, .bid_for_items .btn-exit, .bid_for_items .btn-next {
+    background-color: #323549;
+    min-width: 90px;
+}
+
+.supply_profile .btn-save, .bid_for_items .btn-save {
+    background-color: #00a651;
+    min-width: 90px;
+}
+
+.supply_profile .supply_profile_info .supply_profile_info_content {
+    padding-left: 30px !important;
+    color: #767ca0;
+}
+
+.supply_profile .supply_profile_info .fa-pencil, .verify_submit .fa-pencil {
+    color: #d7d7d7;
+}
+
+    .supply_profile .supply_profile_info .fa-pencil:hover, .verify_submit .fa-pencil:hover {
+        color: #000;
+    }
+/* style upload document page*/
+.upload_document .fa-plus-circle {
+    color: #0072bc;
+}
+
+.upload_document .new_document_title {
+    color: #0072bc;
+}
+
+.upload_document .upload_document_table thead tr, .verify_submit .verify_submit_table thead tr {
+    color: #959595;
+}
+
+    .upload_document .upload_document_table thead tr th, .verify_submit .verify_submit_table thead tr th {
+        border: none;
+    }
+
+.upload_document .upload_document_table tbody td {
+    color: #767ca0;
+}
+/*style verify and submit page*/
+.verify_submit .verify_submit_table tbody tr td i {
+    color: #f7941d;
+}
+
+.verify_submit .optional_item_total {
+    color: #00a651;
+}
+
+.verify_submit .supplier_info {
+    color: #767ca0;
+}
+/*style purchase order detail*/
+.purchase-order-details .line-solid-top {
+    border-left-style: solid;
+    border-width: 5px;
+    border-color: #3f51b5;
+}
+
+.purchase-order-details .order-info-title {
+    color: #5d6171;
+}
+
+.purchase-order-details .order-info-content {
+    color: #767ca0;
+}
+/*style for login page*/
+#login {
+    background: url("../images/LoginBackgroud.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #fff;
+}
+
+    #login .pattern {
+        background-image: url("../images/bg_pattern.png");
+        position: fixed;
+        opacity: 1;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-color: rgba(43,46,62,0.9);
+    }
+
+    #login #login-panel {
+        background: none;
+        width: 380px;
+        margin: 15% auto;
+        padding: 20px;
+        color: #ffffff;
+    }
+
+
+    #login .login_title.log_word {
+        border-bottom: 3px solid #ff3d45;
+        font-size: 48px;
+        border-radius: 1px;
+    }
+
+    #login .in_word {
+        font-size: 48px;
+    }
+
+    #login .form-signin .form-control {
+        position: relative;
+        height: auto;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+        #login .form-signin .form-control:focus {
+            z-index: 2;
+        }
+
+    #login #username {
+        margin-bottom: -1px;
+        border-radius: 25px;
+        background: transparent;
+        text-indent: 30px;
+        width: 350px;
+    }
+
+    #login #password {
+        margin-bottom: 20px;
+        border-radius: 25px;
+        background: transparent;
+        text-indent: 30px;
+        width: 350px;
+    }
+
+    #login .btn.bt-login {
+        background-color: #ff3d45;
+        color: #ffffff;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        transition: background-color 300ms linear 0s;
+        border-radius: 20px;
+        width: 350px;
+    }
+
+    #login .register {
+        color: #767ca0;
+        text-align: center;
+    }
+
+        #login .register a {
+            border-bottom: 1px solid;
+        }
+
+            #login .register a:hover {
+                text-decoration: none;
+            }
+
+    #login .icon-input {
+        position: relative;
+        z-index: 1;
+        left: 20px;
+        top: 30px;
+        color: #7B7B7B;
+        cursor: pointer;
+        width: 0;
+    }
+
+    #login .checkbox-style {
+        background: transparent;
+    }
+
+    #login .logo {
+        height: auto;
+        width: auto;
+    }
+
+    #login .linklogobottom {
+        margin-right: 10px;
+        padding-right: 10px;
+        color: #767ca0;
+        border-right: 1px solid #767ca0;
+        text-align: right;
+    }
+
+    #login .img-suit {
+        color: #767ca0;
+    }
+
+/*checkbox style*/
+/*style for checkbox*/
+
+input[type=checkbox].ace, input[type=radio].ace {
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+label input[type=checkbox].ace, label input[type=radio].ace {
+    width: 1px !important;
+    height: 1px !important;
+    clip: rect(1px,1px,1px,1px);
+    position: absolute;
+}
+
+input[type=checkbox].ace:checked, input[type=radio].ace:checked, input[type=checkbox].ace:focus, input[type=radio].ace:focus {
+    outline: 0 !important;
+}
+
+input[type=checkbox].ace + .lbl, input[type=radio].ace + .lbl {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    line-height: 20px;
+    min-height: 18px;
+    min-width: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+    input[type=checkbox].ace + .lbl::before, input[type=radio].ace + .lbl::before {
+        cursor: pointer;
+        font-family: fontAwesome;
+        font-weight: 400;
+        font-size: 12px;
+        color: #000;
+        background-color: #fff;
+        content: "\a0";
+        border: 1px solid #878787;
+        box-shadow: 0 1px 2px rgba(0,0,0,.05);
+        display: inline-block;
+        text-align: center;
+        height: 16px;
+        line-height: 14px;
+        min-width: 16px;
+        margin-right: 1px;
+        position: relative;
+        top: -1px;
+        border-radius: 3px;
+        transition: all ease-in 0.2s;
+    }
+/*when checked*/
+input[type=checkbox].ace:checked + .lbl::before, input[type=radio].ace:checked + .lbl::before {
+    display: inline-block;
+    content: '\f00c';
+    border: 1px solid #878787;
+    background-color: #fafafa;
+    box-shadow: 0 1px 2px rgba(0,0,0,.05),inset 0 -15px 10px -12px rgba(0,0,0,.05),inset 15px 10px -12px rgba(255,255,255,.1);
+}
+
+input[type=checkbox].ace:hover + .lbl::before, input[type=radio].ace:hover + .lbl::before, input[type=checkbox].ace + .lbl:hover::before, input[type=radio].ace + .lbl:hover::before {
+    border-color: #b3b3b3;
+    background-color: #fafafa;
+}
+/*checkbox, radio when focus*/
+input[type=checkbox].ace:focus + .lbl::before, input[type=radio].ace:focus + .lbl::before, input[type=checkbox].ace + .lbl:focus::before, input[type=radio].ace + .lbl:focus::before {
+    border-color: #b3b3b3;
+    background-color: #fafafa;
+}
+
+input[type=checkbox].ace:active + .lbl::before, input[type=radio].ace:active + .lbl::before, input[type=checkbox].ace:checked:active + .lbl::before, input[type=radio].ace:checked:active + .lbl::before {
+    box-shadow: 0 1px 2px rgba(0,0,0,.05),inset 0 1px 3px rgba(0,0,0,.1);
+}
+
+input[type=checkbox].ace:disabled + .lbl::before, input[type=radio].ace:disabled + .lbl::before, input[type=checkbox].ace[disabled] + .lbl::before, input[type=radio].ace[disabled] + .lbl::before, input[type=checkbox].ace.disabled + .lbl::before, input[type=radio].ace.disabled + .lbl::before {
+    background-color: #DDD !important;
+    border-color: #CCC !important;
+    box-shadow: none !important;
+    color: #BBB;
+    cursor: not-allowed !important;
+}
+
+.checkbox label input[type=checkbox].ace + .lbl, .radio label input[type=radio].ace + .lbl {
+    margin-left: -10px;
+}
+
+/*style check for raido*/
+input[type=radio].ace + .lbl::before {
+    color: #00a651;
+}
+
+input[type=radio].ace:checked + .lbl::before {
+    content: '\f111';
+    color: #00a651;
+}
+
+input[type=radio].ace + .lbl::before {
+    border-radius: 100%;
+    font-size: 10px;
+    font-family: FontAwesome;
+    text-shadow: 0 0 1px #32a3ce;
+    line-height: 15px;
+    height: 17px;
+    min-width: 17px;
+}
+/*End radio style*/
+
+input[type=checkbox].ace.input-lg + .lbl::before {
+    font-size: 16px;
+    height: 24px;
+    line-height: 21px;
+    min-width: 24px;
+    top: auto;
+}
+
+input[type=radio].ace.input-lg + .lbl::before {
+    font-size: 13px;
+    height: 24px;
+    line-height: 22px;
+    min-width: 24px;
+    top: auto;
+}
+
+.checkbox-text {
+    font-size: 13px;
+    color: #000;
+    cursor: pointer;
+    white-space: normal;
+}
+
+
+/*style form registration step1*/
+.registration-background {
+    background: url("../images/LoginBackgroud.png") no-repeat;
+    background-size: cover;
+}
+
+.mask {
+    background-image: url("../images/bg_pattern.png");
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: rgba(43,46,62,0.9);
+}
+
+.registration-detail {
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+}
+
+.border-c2 {
+    border: 1px solid #c2c2c2;
+}
+
+.notifi-ico {
+    margin-top: -5px;
+}
+
+.btn_black {
+    color: #fff;
+    background-color: #323549;
+    border: 1px solid #323549;
+    box-shadow: none;
+    transition: all ease 0.2s;
+}
+
+    .btn_black:hover {
+        background-color: rgba(50,53,73,0.7);
+        border: 1px solid rgba(50,53,73,0.7);
+    }
+
+.purple-light {
+    color: #767ca0;
+}
+
+.form-control {
+    box-shadow: none;
+}
+
+.max-255 {
+    max-width: 255px !important;
+}
+
+.font-weight-normal {
+    font-weight: normal;
+}
+
+/*style colỏr checkbox*/
+/*checkbox orange*/
+input[type=checkbox].ace.orange-check:checked + .lbl::before, input[type=radio].ace.orange-check:checked + .lbl::before {
+    content: '\f00c';
+    border: 1px solid #f7941d;
+    background-color: #f7941d;
+    color: #fff;
+}
+
+input[type=checkbox].ace.orange-check + .lbl::before, input[type=radio].ace.orange-check + .lbl::before {
+    color: #fff;
+    content: "\a0";
+    border: 1px solid #878787;
+    border-radius: 3px;
+    transition: all ease-in 0.2s;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.Calltooltip + .tooltip .tooltip-inner {
+    background-color: #fdf5e8;
+    color: #323549;
+    padding: 12px 15px;
+    white-space: nowrap;
+    max-width: 400px;
+    box-shadow: 1px 1px 4px #888888;
+}
+
+.Calltooltip + .tooltip .tooltip-arrow {
+    border-top-color: #fdf5e8;
+}
+
+.pr-40 {
+    padding-right: 40px !important;
+}
+
+.color-b7 {
+    color: #b7b7b7;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.rule {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    padding: 18px 25px;
+    color: #656565;
+}
+
+.btn_blue {
+    background-color: #42a5f5;
+    border: 1px solid #42a5f5;
+    color: #fff;
+    box-shadow: none;
+    transition: all ease 0.2s;
+}
+
+    .btn_blue:hover {
+        background-color: rgba(66,165,245,0.7);
+        border: 1px solid rgba(66,165,245,0.7);
+    }
+
+.btn_green {
+    background-color: #00a651;
+    border: 1px solid #00a651;
+    color: #fff;
+    box-shadow: none;
+    transition: all ease 0.2s;
+}
+
+    .btn_green:hover {
+        background-color: rgba(0,166,81,0.7);
+        border: 1px solid rgba(0,166,81,0.7);
+    }
+
+.max-145 {
+    max-width: 145px;
+}
+
+/*style for login page*/
+.login-text {
+    font-size: 50px;
+    position: relative;
+}
+
+.login-line {
+    width: 87px;
+    height: 5px;
+    border-radius: 4px;
+    background-color: #ff3d45;
+    display: block;
+    margin-top: -7px;
+}
+
+.max-430 {
+    max-width: 430px !important;
+}
+
+.login-group {
+    width: 100%;
+    min-height: 95vh;
+}
+
+    .login-group .input input {
+        height: 40px;
+        border: 1px solid #767ca0;
+        border-radius: 50px;
+        background-color: transparent;
+        color: #767ca0;
+        padding-left: 45px;
+    }
+
+    .login-group .input:before {
+        content: "";
+        position: absolute;
+        background-image: url('../images/login_ico.png');
+        background-repeat: no-repeat;
+        width: 21px;
+        height: 34px;
+        left: 15px;
+    }
+
+    .login-group .input.password:before {
+        background-position-y: 86%;
+    }
+
+    .login-group ::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+        color: #767ca0;
+    }
+
+    .login-group :-moz-placeholder { /* Firefox 18- */
+        color: #767ca0;
+    }
+
+    .login-group ::-moz-placeholder { /* Firefox 19+ */
+        color: #767ca0;
+    }
+
+    .login-group :-ms-input-placeholder { /* IE 10+ */
+        color: #767ca0;
+    }
+
+    .login-group ::-ms-input-placeholder { /* Edge */
+        color: #767ca0;
+    }
+
+/*checkbox login*/
+input[type=checkbox].ace.login-check:checked + .lbl::before {
+    content: '\f00c';
+    border: 1px solid #767ca0;
+    background-color: transparent;
+    color: #fff;
+}
+
+input[type=checkbox].ace.login-check + .lbl::before {
+    color: #fff;
+    content: "\a0";
+    border: 1px solid #767ca0;
+    border-radius: 3px;
+    transition: all ease-in 0.2s;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.btn_login {
+    background-color: #ff3d45;
+    border: 1px solid #ff3d45;
+    color: #fff;
+    border-radius: 50px;
+    transition: all ease 0.2s;
+}
+
+    .btn_login:hover {
+        background-color: rgba(255,61,69,0.9);
+    }
+
+.underline {
+    text-decoration: underline;
+}
+
+a.purple-text-light:hover {
+    color: #767ca0;
+    opacity: 0.7;
+}
+
+a.underline:hover {
+    text-decoration: underline;
+}
+
+.login-footer-text {
+    color: #5b5e72;
+}
+
+.text-bottom {
+    vertical-align: bottom;
+}
+
+.listTenders .btn-group {
+    width: 60%;
+}
+
+    .listTenders .btn-group .multiselect {
+        width: 100%;
+    }
+
+.search-menu.tender:after {
+    top: 6px;
+}
+.max-280{
+    max-width:280px !important;
+}
